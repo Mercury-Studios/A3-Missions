@@ -1,0 +1,30 @@
+author			= "Silence";
+onLoadName		= "Tazer Demo";
+onLoadMission	= "Tazer Demo";
+loadScreen		= "";
+
+class Header
+{
+	gameType =  Deathmatch;	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 2;	// maximum number of players the mission supports
+};
+
+
+class CfgSounds
+{
+	sounds[] = {};
+	class tasersfx
+	{
+		name = "tasersfx";
+		sound[] = {"\sounds\tasersfx.ogg", 130, 1.0};
+		titles[] = {0, ""};
+	};
+
+	class tasershot
+	{
+		name = "tasershot";
+		sound[] = {"\sounds\tasershot.ogg", 300, 1.0};
+		titles[] = {0, ""};
+	};
+};
